@@ -1,0 +1,31 @@
+.content{
+    margin-top: 3rem;
+
+    h1{
+        text-transform: capitalize;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: .1rem;
+        font-weight: 300;
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .html-image{
+        text-align: center;
+
+        &--html{
+            height: 25rem;
+            width: 45rem;
+        }
+
+        &--css{
+            background-image: url(../img/test2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+            height: 25rem;
+            width: 45rem;
+        }
+    }
+}

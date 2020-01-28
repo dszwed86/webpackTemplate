@@ -1,0 +1,16 @@
+//Responsywność
+
+@mixin media($breakpoint){
+    @if($breakpoint == phone){
+     @media (max-width: 45em) { @content };
+    }
+    @if($breakpoint == tablet-s){
+     @media (max-width: 56.25em) { @content };   
+    }
+    @if($breakpoint == tablet-b){
+     @media (max-width: 75em) { @content };   
+    }
+    @if($breakpoint == desktop-b){
+     @media (min-width: 112.5em) { @content };   
+    }
+}

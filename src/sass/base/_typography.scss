@@ -1,0 +1,20 @@
+// responsywność czcionki
+
+body{
+
+    @include media(tablet-b){
+        font-size: 55.5%;
+    }
+
+    @include media(tablet-s){
+        font-size: 45.5%;
+    }
+
+    @include media(phone){
+        font-size: 40%;
+    }
+
+    @include media(desktop-b){
+        font-size: 65.5%;
+    }
+};
